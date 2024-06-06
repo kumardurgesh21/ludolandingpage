@@ -1,0 +1,533 @@
+html, body {
+  height: auto;
+        width: 100%;
+        height: 100%;
+        padding-top: 1px;
+        margin-top: 5px;
+    }
+    
+    
+    *{
+    background-color: rgb(0, 21, 124);
+}
+
+
+
+.g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+
+
+
+
+
+/* Navbar styling */
+.navbar {
+    overflow: hidden;
+  
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar is on top */
+  }
+  
+  /* Logo on the left */
+  .logo-left {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  /* Logo on the right */
+  .right,
+  .navbar-brand {
+    float: right;
+  
+  }
+  
+  /* Centered name of website */
+  .navbar-brand {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 200px) {
+    .navbar-brand {
+      text-align: left;
+      padding-left: 50px;
+    }
+    .logo-left,
+    .logo-right {
+      display: none;
+    }
+  }
+
+  .four{
+    color:rgb(132, 255, 2);
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .five{
+    
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+
+  /* Container for images */
+.image-container {
+    width: 100%;
+    text-align: center; /* Center images horizontally */
+  }
+  
+  /* Individual images */
+  .small-image {
+    height: 30px;
+    width: 34px;
+    display: inline-block; /* Display images in one line */
+    margin: 5px; /* Add some margin between images */
+  }
+  .heading{
+    text-align: center;
+ 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+
+
+  /* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown button */
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Position the dropdown menu */
+  .dropdown-content {
+    right: 0;
+    top: 100%;
+  }
+  
+  .register-btn{
+  
+
+   color: white;
+   font-size: large;
+   text-decoration: none;
+   border-style: none;
+    background-color: green;
+   
+    padding: 4%;
+    margin: 5%;
+    border-radius: 30px;
+    
+  }
+
+  .btn{
+   
+    text-align: center;
+
+  }
+  #h3{
+   
+    background-color: rgb(60, 0, 42);
+  }
+  .h3{
+
+    background-color: rgb(44, 0, 31);
+  }
+
+  .ptm-image-container {
+
+    text-align: center; /* Center images horizontally */
+  }
+
+  .ptm-small-image {
+    
+    height: 24px;
+    width: 50px;
+    display: inline-block; /* Display images in one line */
+    margin: 5px; /* Add some margin between images */
+  }
+
+  .arroww{
+   
+        margin: auto;
+        width: 10%;
+      
+        padding: 9px;
+      }
+  
+      .h6{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 34%;
+        color: rgb(5, 255, 84);
+        text-align: center;
+        padding-bottom: 0px;
+      }
+      .h1{
+    
+        padding-top: 0px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: aqua;
+      }
+
+      .p1{
+        font-size: smaller;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(158, 231, 206);
+        text-align: center;
+      }
+
+
+      /* body{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        /* -webkit-box-pack: center; */
+        /* webkit-justify-content: center; */
+        /* justify-content: center; */
+        /* background-color: #090909; */
+    
+   
+        .faq {
+          max-width: 600px;
+          margin: 20px auto;
+          background-color: purple;
+          border-radius: 3px;
+          padding: 20px;
+        }
+        .question {
+          background-color: white;
+          color: purple;
+          padding: 15px;
+          margin-bottom: 10px;
+          border-radius: 3px;
+          cursor: pointer;
+          transition: background-color 0.3s ease, color 0.3s ease;
+          position: relative;
+        }
+        .question:hover {
+          background-color: #f0f0f0;
+        }
+        .answer {
+          display: none;
+          padding: 15px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+          background-color: white;
+          margin-bottom: 10px;
+          line-height: 1.6;
+          animation: fadeIn 0.5s ease;
+          color: purple;
+        }
+        .arrow {
+          position: absolute;
+          top: 50%;
+          right: 15px;
+          transform: translateY(-50%);
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 8px 5px 0 5px;
+          border-color: rgb(247, 0, 0) transparent transparent transparent;
+          transition: transform 0.3s ease;
+        }
+        .question.collapsed .arrow {
+          transform: translateY(-50%) rotate(-90deg);
+        }
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        .social-media {
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          list-style-type: none;
+          padding: 0;
+        }
+        .social-media li {
+          margin-right: 10px;
+        }
+        .social-media li:last-child {
+          margin-right: 0;
+        }
+        .social-media li a {
+          display: block;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background-color: #990915; /* Change the color for each social media icon */
+          text-align: center;
+          line-height: 40px;
+          color: #fff;
+          font-size: 20px;
+          transition: background-color 0.3s ease;
+        }
+        .social-media li a:hover {
+          background-color: #03f827; /* Change the hover color */
+        }
+
+
+        .logo{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .rush-logo{
+          height: 80px;
+          width: 85px;
+        }
+
+        .after-logo{
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .aftr-logo{
+          color: white;
+        }
+
+        .image-containerr{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+
+
+        .after-award{
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .aftr-award{
+          color: white;
+        }
+
+        .copyright{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-size: smaller;
+          color: white;
+          padding-left: 20px;
+
+        }
+
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6a0777;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1); /* Add a shadow to create the effect */
+}
+
+.button-container {
+
+  display: inline-block;
+  margin: -5px 2px -1px;
+}
+.download-button, .explore-button {
+ 
+  background-color: #4caf50; /* Button color changed to green */
+  color: rgb(253, 253, 253);
+  padding: 6px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform for hover effect */
+  text-decoration: none; /* Remove underline from anchor links */
+  display: inline-block;
+  position: relative; /* Added for absolute positioning of .flash effect */
+  overflow: hidden; /* Added for .flash effect */
+}
+.download-button:hover, .explore-button:hover {
+  background-color: #388e3c; /* Darker green for hover effect */
+  transform: scale(1.05); /* Increase size on hover */
+}
+.flash {
+  position: absolute;
+  left: -100%; /* Start position outside the button */
+  top: 0;
+  width: 200%; /* Double the width of the button */
+  height: 100%;
+  background-color: rgba(79, 249, 0, 0.5); /* Semi-transparent white */
+  animation: flash 1s infinite; /* Flash effect animation */
+}
+@keyframes flash {
+  0% {
+    left: -100%; /* Flash starts from the left */
+  }
+  100% {
+    left: 100%; /* Flash ends at the right */
+  }
+}
+
+/* Media queries for responsive layout */
+@media (max-width: 600px) {
+  .button-container {
+    display: block;
+  }
+  .download-button, .explore-button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
